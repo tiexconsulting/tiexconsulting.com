@@ -24,38 +24,37 @@
     <ul id="menu">
       <li><a href="index.html" aria-current="page">Inicio</a></li>
       <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="diagnostico.html">Diagnóstico 360°</a></li>
       <li><a href="nosotros.html">Nosotros</a></li>
       <li><a href="contacto.html">Contacto</a></li>
     </ul>
-    <a class="btn btn-primary btn-sm" href="servicios.html#diagnostico">Diagnóstico 360°</a>
+    <a class="btn btn-primary btn-sm" href="contacto.html">Agendar diagnóstico</a>
     <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
   </div>
 </header>
 
 <main>
-<section class="hero" aria-labelledby="h-hero">
-  <div class="wrap hero-grid">
-    <div class="hero-copy reveal">
-      <span class="eyebrow">Consultoría de Recursos Humanos y desarrollo organizacional</span>
-      <h1 id="h-hero">De caos operativo a <span class="blue">rentabilidad y estructura sólida</span></h1>
-      <p class="hero-for">Para empresas industriales, mineras, de retail y de servicios de todo México. Con sede en Hermosillo, Sonora.</p>
-      <p class="sub">No te dejamos una carpeta con recomendaciones. Entramos al lodo contigo: ordenamos la operación, reclutamos al talento clave y estructuramos tu empresa hasta que funcione sin depender de una sola persona.</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="contacto.html">Agenda tu Diagnóstico 360°</a>
-        <a class="link" href="servicios.html">Conoce nuestros servicios</a>
-      </div>
-      <p class="hero-note">+1,000 colaboradores capacitados · Vacantes cubiertas en 1 semana</p>
+<section class="vhero" aria-labelledby="h-hero">
+  <div class="vbg" aria-hidden="true">
+    <img class="vs on" src="assets/hero.jpg" alt="" width="1200" height="900" fetchpriority="high">
+    <img class="vs" src="assets/servicio-operativa.jpg" alt="" width="1200" height="800" loading="lazy">
+    <img class="vs" src="assets/servicio-talento.jpg" alt="" width="1200" height="800" loading="lazy"><img class="vs" src="assets/foto-clase.jpg" alt="" width="1000" height="993" loading="lazy">
+    <video class="vvid" muted loop playsinline preload="metadata" poster="assets/hero.jpg"><source src="assets/hero.mp4" type="video/mp4"></video>
+  </div>
+  <div class="wrap vcontent">
+    <span class="eyebrow">Recursos Humanos y desarrollo organizacional</span>
+    <h1 id="h-hero">De caos operativo a <span class="rot" aria-live="off"><span class="on">rentabilidad</span><span>estructura sólida</span><span>equipos estables</span></span></h1>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="contacto.html">Agenda tu Diagnóstico 360°</a>
+      <a class="vlink" href="servicios.html">Ver servicios <span aria-hidden="true">→</span></a>
     </div>
-    <div class="hero-img reveal"><img src="assets/hero.jpg" alt="Equipo directivo en una sala de juntas con el logotipo de TIEX en la pared" width="1200" height="900" fetchpriority="high"></div>
   </div>
-  <div class="wrap">
-    <ul class="hero-tabs" aria-label="Áreas de trabajo"><li>Consultoría operativa</li><li>Gestión de talento</li><li>Branding y presencia digital</li></ul>
-  </div>
+  <div class="wrap"><ul class="vstats" aria-label="Resultados"><li><b>+<span class="count" data-to="1000" data-sep="1">1,000</span></b><span>colaboradores capacitados</span></li><li><b>1</b><span>semana para cubrir vacantes</span></li><li><b>↓<span class="count" data-to="20">20</span>%</b><span>menos rotación</span></li></ul></div>
 </section>
 
 <section class="clients" id="proyectos" aria-labelledby="h-clients">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Clientes</span><h2 id="h-clients">Empresas que ya confían en nosotros</h2><ul class="sectors" aria-label="Giros que atendemos"><li>Industrial</li><li>Minería</li><li>Retail</li><li>Servicios</li></ul><p class="lead">Distintos giros, un mismo método: ordenar, formar y ejecutar contigo.</p></div>
+    <div class="section-head reveal"><span class="eyebrow">Clientes</span><h2 id="h-clients">Empresas que confían en nosotros</h2><ul class="sectors" aria-label="Giros que atendemos"><li>Industrial</li><li>Minería</li><li>Retail</li><li>Servicios</li></ul></div>
   </div>
   <div class="marquee reveal" aria-label="Logotipos de clientes">
     <div class="track">
@@ -93,44 +92,38 @@
   </div>
 </section>
 
-<section class="band" aria-label="Propuesta">
-  <div class="wrap band-grid reveal">
-    <span class="band-label">Orden. Equipo. Legado.</span>
-    <p>Transformamos el caos operativo en una estructura sólida que libere el potencial de tu gente y asegure tu permanencia.</p>
-  </div>
-</section>
+<section class="band" aria-label="Propuesta"><div class="wrap"><ul class="trio reveal"><li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 17.5h7M17.5 14v7"/></svg><b>Orden</b><span>Procesos claros</span></li><li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="3"/><circle cx="5" cy="16" r="2.5"/><circle cx="19" cy="16" r="2.5"/><path d="M8 21v-1a4 4 0 0 1 8 0v1"/></svg><b>Equipo</b><span>Talento que se queda</span></li><li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21V8M12 8c0-3 2-5 6-5 0 4-2 6-6 6M12 12c0-2.5-1.8-4-5-4 0 3.5 1.8 5 5 5"/></svg><b>Legado</b><span>Empresa que trasciende</span></li></ul></div></section>
 
 <section class="interest" id="perfiles" aria-labelledby="h-int">
   <div class="wrap">
     <div class="section-head reveal">
-      <span class="eyebrow">¿Te suena familiar?</span>
-      <h2 id="h-int">Si te reconoces en alguno de estos, <span class="blue">hablemos</span></h2>
+      <span class="eyebrow">Elige tu perfil</span>
+      <h2 id="h-int">¿Te reconoces? <span class="blue">Hablemos</span></h2>
     </div>
-    <div class="persona-grid">
-      <article class="persona reveal">
-        <span class="tag">Dueños y fundadores</span>
-        <h3>Tu empresa depende de ti. Eso no es un negocio, es un trabajo con más riesgo.</h3>
-        <p>Resuelves todo y no puedes ausentarte sin que algo se caiga. Te ayudamos a delegar con confianza y a poner procesos donde hoy hay costumbres, para que tu empresa crezca sin que cada decisión pase por ti.</p>
-        <a class="more" href="contacto.html">Quiero soltar el control operativo <span aria-hidden="true">→</span></a>
-      </article>
-      <article class="persona reveal">
-        <span class="tag">Gerentes de RH</span>
-        <h3>Esa vacante lleva meses abierta y la gente buena se sigue yendo.</h3>
-        <p>Ya probaste con agencias y bolsas de trabajo. Encontramos al perfil que sí encaja y trabajamos cultura y retención para que se quede.</p>
-        <a class="more" href="contacto.html">Necesito cubrir un puesto clave <span aria-hidden="true">→</span></a>
-      </article>
-      <article class="persona reveal">
-        <span class="tag">Gerentes administrativos</span>
-        <h3>Cada área trabaja a su manera y tú pasas el día apagando incendios.</h3>
-        <p>Sin procesos claros, todo depende de quién esté ese día. Ordenamos el desorden administrativo, estandarizamos cómo se hace cada cosa y formamos a tu equipo para que rinda desde las primeras semanas.</p>
-        <a class="more" href="contacto.html">Quiero ordenar mi operación <span aria-hidden="true">→</span></a>
-      </article>
-      <article class="persona reveal">
-        <span class="tag">Directores de operaciones</span>
-        <h3>Tu operación se frena cuando falta gente capacitada.</h3>
-        <p>Rotación, ausentismo y arranques lentos cuestan más que el sueldo. Ordenamos procesos, reclutamos al perfil que sí encaja y formamos a tu equipo para que rinda desde las primeras semanas.</p>
-        <a class="more" href="contacto.html">Quiero estabilizar mi operación <span aria-hidden="true">→</span></a>
-      </article>
+    <div class="ptabs reveal"><div class="plist" role="tablist" aria-label="Tu perfil"><button type="button" role="tab" id="pt0" aria-controls="pp0" aria-selected="true" tabindex="0">Dueños y fundadores</button><button type="button" role="tab" id="pt1" aria-controls="pp1" aria-selected="false" tabindex="-1">Gerentes de RH</button><button type="button" role="tab" id="pt2" aria-controls="pp2" aria-selected="false" tabindex="-1">Gerentes administrativos</button><button type="button" role="tab" id="pt3" aria-controls="pp3" aria-selected="false" tabindex="-1">Directores de operaciones</button><button type="button" role="tab" id="pt4" aria-controls="pp4" aria-selected="false" tabindex="-1">Emprendedores</button></div><div class="ppanels"><div class="ppanel" role="tabpanel" id="pp0" aria-labelledby="pt0"><img src="assets/servicio-operativa.jpg" alt="Dos directivos conversando en una mesa de trabajo" loading="lazy" width="1000" height="600"><div class="pbody"><h3>Tu empresa depende de ti.</h3><ul class="checks"><li>Procesos donde hoy hay costumbres</li><li>Delegar con confianza</li><li>Una empresa que crece sin pasar por ti</li></ul><a class="btn btn-primary" href="https://wa.me/526624984223?text=Hola%2C%20soy%20due%C3%B1o%20o%20fundador%20y%20quiero%20soltar%20el%20control%20operativo%20de%20mi%20empresa.%20Me%20gustar%C3%ADa%20agendar%20un%20Diagn%C3%B3stico%20Organizacional%20360%C2%B0." target="_blank" rel="noopener">Quiero esta solución <span aria-hidden="true">→</span></a></div></div><div class="ppanel" role="tabpanel" id="pp1" aria-labelledby="pt1" hidden><img src="assets/servicio-talento.jpg" alt="Equipo de trabajo en una sesión de capacitación" loading="lazy" width="1000" height="600"><div class="pbody"><h3>Esa vacante lleva meses abierta.</h3><ul class="checks"><li>El perfil que sí encaja</li><li>Cultura y retención</li><li>Vacantes cubiertas en 1 semana</li></ul><a class="btn btn-primary" href="https://wa.me/526624984223?text=Hola%2C%20soy%20gerente%20de%20RH%20y%20necesito%20cubrir%20un%20puesto%20clave%20y%20reducir%20la%20rotaci%C3%B3n.%20Me%20gustar%C3%ADa%20agendar%20un%20Diagn%C3%B3stico%20Organizacional%20360%C2%B0." target="_blank" rel="noopener">Quiero esta solución <span aria-hidden="true">→</span></a></div></div><div class="ppanel" role="tabpanel" id="pp2" aria-labelledby="pt2" hidden><img src="assets/hero.jpg" alt="Equipo directivo en una sala de juntas" loading="lazy" width="1000" height="600"><div class="pbody"><h3>Cada área trabaja a su manera.</h3><ul class="checks"><li>Procesos claros por área</li><li>Una sola forma de hacer las cosas</li><li>Equipo formado desde el inicio</li></ul><a class="btn btn-primary" href="https://wa.me/526624984223?text=Hola%2C%20soy%20gerente%20administrativo%20y%20quiero%20ordenar%20los%20procesos%20de%20mi%20operaci%C3%B3n.%20Me%20gustar%C3%ADa%20agendar%20un%20Diagn%C3%B3stico%20Organizacional%20360%C2%B0." target="_blank" rel="noopener">Quiero esta solución <span aria-hidden="true">→</span></a></div></div><div class="ppanel" role="tabpanel" id="pp3" aria-labelledby="pt3" hidden><img src="assets/servicio-talento.jpg" alt="Equipo capacitándose" loading="lazy" width="1000" height="600"><div class="pbody"><h3>Tu operación se frena sin gente capacitada.</h3><ul class="checks"><li>Menos rotación y ausentismo</li><li>El perfil correcto para el puesto</li><li>Curva de aprendizaje de 3 a 1 meses</li></ul><a class="btn btn-primary" href="https://wa.me/526624984223?text=Hola%2C%20soy%20director%20de%20operaciones%20y%20quiero%20estabilizar%20mi%20operaci%C3%B3n.%20Me%20gustar%C3%ADa%20agendar%20un%20Diagn%C3%B3stico%20Organizacional%20360%C2%B0." target="_blank" rel="noopener">Quiero esta solución <span aria-hidden="true">→</span></a></div></div><div class="ppanel" role="tabpanel" id="pp4" aria-labelledby="pt4" hidden><img src="assets/servicio-operativa.jpg" alt="Asesoría para emprendedores sobre su plan de negocio" loading="lazy" width="1000" height="600"><div class="pbody"><h3>Tienes la idea. Falta saber si es viable.</h3><ul class="checks"><li>Plan de negocio</li><li>Viabilidad</li><li>Rentabilidad</li></ul><a class="btn btn-primary" href="https://wa.me/526624984223?text=Hola%2C%20soy%20emprendedor%28a%29%20y%20quiero%20un%20plan%20de%20negocio%20con%20an%C3%A1lisis%20de%20viabilidad%20y%20rentabilidad.%20Me%20gustar%C3%ADa%20agendar%20una%20pl%C3%A1tica." target="_blank" rel="noopener">Quiero esta solución <span aria-hidden="true">→</span></a></div></div></div></div>
+  </div>
+</section>
+
+<section class="dsec" id="iceberg" aria-labelledby="h-m">
+  <div class="wrap">
+    <div class="section-head reveal"><span class="eyebrow">Iceberg empresarial</span><h2 id="h-m">Lo que ves <span class="blue">tiene una causa</span></h2></div>
+    <div class="dmap reveal" id="dmap">
+      <p class="dcap" id="dcap" aria-live="polite">Elige el problema que más se parece al de tu empresa.</p>
+      <svg class="dlines" id="dlines" aria-hidden="true"></svg>
+      <div class="dtop"><span class="dlbl">Lo que se ve</span><div class="drow efs"><button type="button" class="ef" data-id="rot">Rotación de personal</button><button type="button" class="ef" data-id="vac">Vacantes sin cubrir</button><button type="button" class="ef" data-id="fue">Apagar fuegos todos los días</button><button type="button" class="ef" data-id="des">Desorden operativo</button><button type="button" class="ef" data-id="fug">Baja productividad y fugas de dinero</button><button type="button" class="ef" data-id="con">Conflictos y mal ambiente laboral</button><button type="button" class="ef" data-id="vis">Poca visibilidad: nadie te conoce</button></div></div>
+      <div class="dwater" aria-hidden="true"><span>Línea de flotación</span></div>
+      <div class="dbot"><span class="dlbl">Posibles causas</span><div class="drow cas" id="dcas"><p class="dhint">Elige un problema arriba y descubre qué puede haber detrás.</p></div></div>
+    </div>
+    <p class="dnote reveal">Son causas frecuentes, no un diagnóstico de tu empresa.</p>
+    <p class="dgo"><a id="dgo" href="#dsol" hidden>Ver cómo podemos ayudarte ↓</a></p>
+    <div class="dsol reveal" id="dsol">
+      <h3>El problema es visible. La solución comienza por entender su origen.</h3>
+      <p class="dsub">En TIEX Consulting ayudamos a las empresas a fortalecer su estructura, desarrollar a sus equipos y mejorar su operación.</p>
+      <div class="svcs"><article class="svc" data-id="cons"><span class="stag">Te puede ayudar</span><span class="ptag">Consultoría Operativa</span><h3>Consultoría Empresarial</h3><p>Resolvemos la raíz, no solo los síntomas.</p></article><article class="svc" data-id="ali"><span class="stag">Te puede ayudar</span><span class="ptag">Consultoría Operativa</span><h3>Alineación Estratégica</h3><p>Una empresa que depende del sistema, no del dueño.</p></article><article class="svc" data-id="suc"><span class="stag">Te puede ayudar</span><span class="ptag">Consultoría Operativa</span><h3>Plan de Sucesión y Trascendencia</h3><p>Relevo generacional asegurado.</p></article><article class="svc" data-id="rec"><span class="stag">Te puede ayudar</span><span class="ptag">Gestión de Talento Élite</span><h3>Reclutamiento y Selección de Personal</h3><p>Puestos clave de alta dificultad.</p></article><article class="svc" data-id="ret"><span class="stag">Te puede ayudar</span><span class="ptag">Gestión de Talento Élite</span><h3>Retención y Cultura</h3><p>Menos rotación, mejor cultura.</p></article><article class="svc" data-id="cap"><span class="stag">Te puede ayudar</span><span class="ptag">Gestión de Talento Élite</span><h3>Capacitación de Personal y Team Building</h3><p>Equipos que rinden desde el inicio.</p><p class="smed">Programas a la medida, no cursos genéricos.</p></article><article class="svc" data-id="mar"><span class="stag">Te puede ayudar</span><span class="ptag">Branding y Presencia Digital</span><h3>Identidad de Marca</h3><p>Una marca tan sólida como tu operación.</p></article><article class="svc" data-id="red"><span class="stag">Te puede ayudar</span><span class="ptag">Branding y Presencia Digital</span><h3>Estrategia de Redes Sociales</h3><p>Presencia que genera confianza.</p></article><article class="svc" data-id="ben"><span class="stag">Te puede ayudar</span><span class="ptag">Branding y Presencia Digital</span><h3>Benchmarking y Mercado</h3><p>Tu mercado y tu competencia, analizados.</p></article></div>
+      <div class="dcta">
+        <div><h3>¿Y si el problema de tu empresa tiene una solución que todavía no has identificado?</h3><p>Platiquemos sobre lo que está pasando y revisemos cómo podemos ayudarte.</p></div>
+        <a class="btn btn-primary" id="dwa" href="#" target="_blank" rel="noopener">Quiero que TIEX me ayude</a>
+      </div>
     </div>
   </div>
 </section>
@@ -139,29 +132,49 @@
   <div class="wrap">
     <div class="section-head reveal">
       <span class="eyebrow">Resultados reales</span>
-      <h2 id="h-res">Impacto real, <span class="hl">números concretos</span></h2>
-      <p>Empresas que confiaron en TIEX Consulting transformaron su operación con resultados medibles.</p>
+      <h2 id="h-res">Resultados en <span class="hl">números</span></h2>
     </div>
     <div class="impact-grid">
       <article class="kpi-hero reveal">
         <span class="badge">Tiempo récord</span>
         <div class="kpi-big"><span class="n">1</span><span class="u">semana</span></div>
-        <p class="kpi-lbl">para cubrir vacantes con candidatos calificados</p>
+        <p class="kpi-lbl">para cubrir vacantes</p>
       </article>
       <div class="kpi-side">
-        <article class="kpi reveal"><div class="num"><span class="pre" aria-hidden="true">+</span><span class="count" data-to="1000" data-sep="1">1,000</span></div><div class="lbl">Colaboradores capacitados</div><div class="sub">Formación de equipos de alto desempeño.</div></article>
-        <article class="kpi reveal"><div class="num"><span class="pre" aria-hidden="true">↓</span><span class="count" data-to="20">20</span>%</div><div class="lbl">Reducción en rotación</div><div class="sub">Menor deserción, mayor estabilidad del equipo.</div></article>
-        <article class="kpi reveal"><div class="num">3<span class="pre" aria-hidden="true">→</span>1</div><div class="lbl">Meses de curva de aprendizaje</div><div class="sub">Aceleramos la integración de nuevos colaboradores.</div></article>
-        <article class="kpi reveal"><div class="num"><span class="count" data-to="100">100</span>%</div><div class="lbl">En eficiencia operativa</div><div class="sub">Procesos ordenados que funcionan sin depender de una sola persona.</div></article>
+        <article class="kpi reveal"><div class="num"><span class="pre" aria-hidden="true">+</span><span class="count" data-to="1000" data-sep="1">1,000</span></div><div class="lbl">Colaboradores capacitados</div></article>
+        <article class="kpi reveal"><div class="num"><span class="pre" aria-hidden="true">↓</span><span class="count" data-to="20">20</span>%</div><div class="lbl">Reducción en rotación</div></article>
+        <article class="kpi reveal"><div class="num">3<span class="pre" aria-hidden="true">→</span>1</div><div class="lbl">Meses de curva de aprendizaje</div></article>
+        <article class="kpi reveal"><div class="num"><span class="count" data-to="100">100</span>%</div><div class="lbl">En eficiencia operativa</div></article>
       </div>
     </div>
   </div>
 </section>
 
 <!-- CIERRE -->
+<section class="life" id="ciclo" aria-labelledby="h-life">
+  <div class="wrap">
+    <div class="section-head reveal"><span class="eyebrow">Ciclo de vida</span><h2 id="h-life">Te acompañamos en <span class="blue">cada etapa de tu negocio</span></h2></div>
+    <figure class="lifefig reveal" id="lifefig">
+      <svg viewBox="0 0 1000 340" role="img" aria-label="Línea de vida de un negocio: idea, puesta en marcha, crecimiento y trascendencia, con una flecha hacia el legado y un camino alterno de declive">
+        <defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#0f75c9"/></marker></defs>
+        <line x1="30" y1="310" x2="970" y2="310" stroke="#d9dde2" stroke-width="2"/>
+        <path class="decl" d="M680 90 Q 800 150 940 300" fill="none" stroke="#9aa0a8" stroke-width="3" stroke-dasharray="8 8"/>
+        <text x="945" y="296" text-anchor="end" font-size="26" fill="#8a9099" font-family="Inter,sans-serif">Declive</text>
+        <path class="line" pathLength="1" d="M30 300 Q 70 295 110 285 T 300 230 T 490 150 T 680 90" fill="none" stroke="#0f75c9" stroke-width="5" stroke-linecap="round"/>
+        <path class="arrow" pathLength="1" d="M680 90 Q 800 55 930 36" fill="none" stroke="#0f75c9" stroke-width="5" stroke-linecap="round" marker-end="url(#ah)"/>
+        <g class="dots"><circle cx="110" cy="285" r="16"/><circle cx="300" cy="230" r="16"/><circle cx="490" cy="150" r="16"/><circle cx="680" cy="90" r="16"/></g>
+        <g class="nums" font-family="Poppins,sans-serif" font-weight="600" font-size="18" fill="#fff" text-anchor="middle"><text x="110" y="291">1</text><text x="300" y="236">2</text><text x="490" y="156">3</text><text x="680" y="96">4</text></g>
+        <text class="legtxt" x="930" y="24" text-anchor="end" font-size="30" font-weight="700" fill="#0f75c9" font-family="Poppins,sans-serif">Legado</text>
+      </svg>
+    </figure>
+    <ul class="steps reveal"><li><span class="n">1</span><h3>Idea</h3><p>Plan de negocio</p></li><li><span class="n">2</span><h3>Puesta en marcha</h3><p>Estructura y primer equipo</p></li><li><span class="n">3</span><h3>Crecimiento</h3><p>Procesos, talento y alineación</p></li><li><span class="n">4</span><h3>Trascendencia</h3><p>Relevo y estrategia</p></li><li class="leg"><span class="n">★</span><h3>Legado</h3><p>Una empresa que perdura</p></li></ul>
+    <p class="lifenote reveal">Con acompañamiento estratégico, tu empresa sigue creciendo en lugar de caer.</p>
+  </div>
+</section>
+
 <section class="cta cta-strip" aria-labelledby="h-strip">
   <div class="wrap">
-    <div><h2 id="h-strip">¿Listo para tomar el control de tu empresa?</h2><p>Empieza con un Diagnóstico Organizacional 360°: una conversación directa para saber por dónde comenzar.</p></div>
+    <div><h2 id="h-strip">¿Listo para tomar el control?</h2></div>
     <a class="btn" href="contacto.html">Agenda tu Diagnóstico 360°</a>
   </div>
 </section>
