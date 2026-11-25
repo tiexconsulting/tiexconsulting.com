@@ -95,7 +95,7 @@
     d.c.forEach(function(t,i){var c=document.createElement('div');c.className='ca lit pop';c.style.animationDelay=(i*90)+'ms';c.textContent=t;box.appendChild(c);});
     cap.innerHTML='<b>'+d.t+'.</b> '+d.x;
     svcs.forEach(function(s){s.classList.toggle('rel',d.s.indexOf(s.dataset.id)>-1);});
-    var g=document.getElementById('dgo');if(g)g.hidden=false;
+    var g=document.getElementById('dgo');if(g)g.hidden=false;var rq=document.getElementById('dreq');if(rq)rq.hidden=(el.dataset.id!=='vac');
     setWa(d.t);
     setTimeout(function(){draw(el);},60);
   }
