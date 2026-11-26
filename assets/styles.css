@@ -629,3 +629,39 @@ a.persona:hover .pi .ic{color:#fff}
 .nav .menu-extra{display:none}
 @media (max-width:1100px){.nav ul{gap:18px}.nav ul a{font-size:.9rem}.nav-cta .btn-sm{padding:10px 12px;font-size:.84rem}.nav{gap:14px}}
 @media (max-width:820px){.nav-cta{display:none}.nav .menu-extra{display:block}}
+
+/* diagnóstico AIDA */
+.badges{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px 22px;color:#e3f0fb;font-size:.9rem}
+.badges li{display:flex;align-items:center;gap:8px}
+.badges .ic{width:20px;height:20px;color:#9fd0f5}
+.contrast{padding:60px 0 20px}
+.cgrid{max-width:760px;margin:10px auto 0;display:grid;gap:0}
+.ccard{border-radius:var(--radius);padding:24px 28px}
+.ccard .clbl{display:block;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin-bottom:12px}
+.ccard ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.ccard li{padding:9px 16px;border-radius:999px;font-weight:500;font-size:.98rem}
+.ccard.vis{background:linear-gradient(#f4f9fd,#d9ebf9);border:1px solid #bcd9f1}
+.ccard.vis .clbl{color:var(--blue-dark)}.ccard.vis li{background:#fff;border:1px solid #bcd9f1;color:var(--ink)}
+.ccard.deep{background:linear-gradient(#0e4a82,#0a2f55);color:#fff}
+.ccard.deep .clbl{color:#9fc7ea}.ccard.deep li{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25)}
+.carrow{text-align:center;font-size:1.6rem;color:var(--blue);padding:4px 0;line-height:1}
+.clink{text-align:center;margin:20px 0 0}.clink a{color:var(--blue);font-weight:600}
+.how{padding:60px 0 20px}
+.hsteps{list-style:none;margin:10px auto 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:980px}
+.hsteps li{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px 20px;text-align:center}
+.hsteps .n{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--blue);color:#fff;font-family:var(--head);font-weight:600;margin-bottom:10px}
+.hsteps h3{font-size:1.08rem;margin-bottom:6px}.hsteps p{margin:0;color:var(--muted);font-size:.93rem}
+.gets{text-align:center;margin:44px 0 18px;font-size:1.3rem}
+.getgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:980px;margin:0 auto}
+.getgrid>div{background:var(--gray);border-radius:var(--radius);padding:22px 20px}
+.getgrid .ic{width:30px;height:30px;margin-bottom:8px}
+.getgrid h4{font-family:var(--head);font-size:1.02rem;margin:0 0 4px}.getgrid p{margin:0;font-size:.92rem;color:var(--muted)}
+.signs{padding:50px 0 40px}
+.signlist{list-style:none;margin:6px auto 0;padding:0;display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:860px}
+.signlist li{border:1px solid var(--blue);color:var(--blue-dark);border-radius:999px;padding:10px 20px;font-weight:500;background:#fff}
+.proof{list-style:none;margin:40px auto 0;padding:26px 0 0;border-top:1px solid var(--line);display:flex;justify-content:center;gap:12px 64px;flex-wrap:wrap;max-width:860px}
+.proof li{display:flex;flex-direction:column;align-items:center;text-align:center}
+.proof b{font-family:var(--head);font-weight:600;font-size:clamp(1.7rem,3vw,2.3rem);color:var(--blue);line-height:1.1}
+.proof .count{font:inherit;color:inherit}.proof span{font-size:.86rem;color:var(--muted)}
+.finalcta{padding:10px 0 60px}.finalcta .diag-cta{margin:0}
+@media (max-width:760px){.hsteps,.getgrid{grid-template-columns:1fr}.ccard{padding:20px}.proof{gap:12px 28px}}
